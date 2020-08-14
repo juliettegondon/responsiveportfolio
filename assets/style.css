@@ -1,9 +1,35 @@
-
+nav {
+  color: cornflowerblue;
+  font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+  color: cornflowerblue;
+  font-family: 'Courier New', Courier, monospace;
+}
+a {
+  color: cornflowerblue;
+}
 body {
-    background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;
+    background: url('https://images.unsplash.com/photo-1533158326339-7f3cf2404354?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1604&q=80') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
   }
 
+  @media (max-width: 500px) {
+    p {
+      font-size: 1.25rem; 
+    }
+  }
+  @media (orientation: landscape) {
+
+  }
+  @media(orientation: portrait) {
+    
+  }
+  @media (min-width: 800px) {
+    p { font-size: 1.5rem;
+        line-height: 1.5;
+    }
+  }
